@@ -1,9 +1,10 @@
-* /* Tar bort standartmåtten */ 
+/* Tar bort standardmåtten */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}/* Grundinställningar för hemsidan */
+}
+/* Grundinställningar för hemsidan */
 html, body {
     height: 100%;
     margin: 0;
@@ -18,8 +19,10 @@ body {
     display: flex;
     flex-direction: column;
 }
-
-
+.dark-mode {
+  background-color: black;
+  color: white;
+}
 
 header {
     background-color: #141413ef;
@@ -105,4 +108,26 @@ footer {
 
     box-shadow: 0 2px 6px rgb(0, 0, 0, 0.08);
 }
-    
+button {
+color: #ffffff;
+background-color: #2c6e49;
+padding: 12px 25px;
+border: none;
+font-size: 16px;
+font-weight: bold;
+cursor: pointer;
+transition: all 0.3 ease;
+}
+.tema-knapp {
+    background-color: #333;
+    color: rgb(101, 34, 34);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+ .dark {
+    background-color: #222;
+    color: white;
+}

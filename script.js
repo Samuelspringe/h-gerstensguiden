@@ -7,3 +7,7 @@ function Slumparestaurang() {
     //Visar den slumpade restaurangen, hämtar info från html tips
     document.getElementById("tips").innerHTML = restauranger[slump];
 }
+
+function darkMode() {
+    document.body.classList.toggle("dark");
+}
